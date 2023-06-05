@@ -215,22 +215,6 @@ int makeShitHappen(ViewController *view) {
         [view writeText:@"done!"];
     }
     
-    // add the midnight repo 
-//    if (file_exists("/etc/apt/sources.list.d/meridian.list") != 0) {
-//        FILE *fd = fopen("/etc/apt/sources.list.d/meridian.list", "w+");
-//        const char *text = "deb http://repo.midnight.team ./";
-//        fwrite(text, strlen(text) + 1, 1, fd);
-//        fclose(fd);
-//    }
-    
-    // add the beta substrate repo
-    if (file_exists("/etc/apt/sources.list.d/substrate.lsit") != 0) {
-        FILE *fd = fopen("/etc/apt/sources.list.d/substrate.list", "w+");
-        const char *text = "deb http://apt.saurik.com/beta/substrate11 ./";
-        fwrite(text, strlen(text) + 1, 1, fd);
-        fclose(fd);
-    }
-    
     // launch dropbear
     if (startDropbearIsEnabled()) {
         [view writeText:@"launching dropbear..."];
