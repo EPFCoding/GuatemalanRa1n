@@ -1,11 +1,14 @@
-# MeridianJB
-An iOS 10.x Jailbreak for all 64-bit devices.
+# MeridianFix
+Meridian is an iOS 10.x Jailbreak for all 64-bit devices.
 
-Website: https://meridian.sparkes.zone
+MeridianFix is a build of Meridian's `substrate` branch with an updated bootstrap.
 
-All credits can be found on the website. Thanks to everyone who helped.
+- Uses Cydia Substrate instead of Substitute for tweak injection and compatibility
+- Installs Zebra v1.1.33 instead of Cydia on initial installation
 
-Feel free to create a PR if you believe there is area for improvement - it's not perfect I know.
+App version (ipa): https://github.com/LukeZGD/MeridianFix/releases
+
+Web version (TNS): https://lukezgd.github.io/MeridianFix
 
 ## Building
 
