@@ -3,7 +3,7 @@
 An updated version of TotallyNotSpyware with changes from Meridian's `substrate` branch and an updated bootstrap.
 
 - Uses Cydia Substrate instead of Substitute for tweak injection and compatibility
-- Installs Zebra v1.1.33 instead of Cydia on initial installation
+- Installs Zebra v1.1.36 instead of Cydia on initial installation
 
 [**[ Live version at lukezgd.github.io/MeridianFix ]**](https://lukezgd.github.io/MeridianFix)
 
