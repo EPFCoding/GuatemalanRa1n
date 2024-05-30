@@ -24,8 +24,9 @@ rm -rf /mnt1/Applications/Cydia.app /mnt1/meridian
 sync
 exit
 ```
-1. Select Reboot Device
-1. Once device reboots, jailbreak with MeridianFix instead
+- Replace `mount_apfs` with `mount_hfs` on iOS 10.0-10.2.1
+4. Select Reboot Device
+5. Once device reboots, jailbreak with MeridianFix instead
 
 ## Building
 
