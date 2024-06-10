@@ -12,6 +12,8 @@ Web version (TNS): https://lukezgd.github.io/MeridianFix
 
 Note: The web app might not work for iOS versions below 10.3.x. It is recommended to use the app instead for iOS 10.0-10.2.1
 
+Note 2: Because MeridianFix still uses v0rtex exploit, jailbreaking is going to take a lot of tries. This is because the success rate of v0rtex is really bad.
+
 ## For previously jailbroken devices
 If your device was previously jailbroken with Meridian (or other jailbreak tools) and would like to switch to MeridianFix, you may try to do the following steps:
 
