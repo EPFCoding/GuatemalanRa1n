@@ -21,12 +21,15 @@ If your device was previously jailbroken with Meridian (or other jailbreak tools
 1. Follow instructions. Once in the SSH Ramdisk, select Connect to SSH
 1. Run the following commands:
 ```
-mount_apfs /dev/disk0s1s1 /mnt1
+/sbin/mount_apfs /dev/disk0s1s1 /mnt1
 rm -rf /mnt1/Applications/Cydia.app /mnt1/meridian
+sync
+/sbin/umount /mnt1
 sync
 exit
 ```
-- Replace `mount_apfs` with `mount_hfs` on iOS 10.0-10.2.1
+- Note: Replace `mount_apfs` with `mount_hfs` on iOS 10.0-10.2.1
+- WARNING: There is a chance for your device to bootloop after doing this procedure. Proceed at your own risk
 4. Select Reboot Device
 5. Once device reboots, jailbreak with MeridianFix instead
 
