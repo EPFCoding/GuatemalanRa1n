@@ -17,6 +17,10 @@ Note 2: Because MeridianFix still uses v0rtex exploit, jailbreaking is going to 
 ## For previously jailbroken devices
 If your device was previously jailbroken with Meridian (or other jailbreak tools) and would like to switch to MeridianFix, you may try to do the following steps:
 
+- Note: Replace `mount_apfs` with `mount_hfs` on iOS 10.0-10.2.1
+- WARNING: There is a chance for your device to bootloop after doing this procedure. Proceed at your own risk
+- A safer version of this is to remove the folders `/Applications/Cydia.app` and `/meridian` while jailbroken, using Filza, SSH, or other jailbroken methods.
+
 1. Run [Legacy iOS Kit](https://github.com/LukeZGD/Legacy-iOS-Kit), go to Other Utilities -> SSH Ramdisk
 1. Follow instructions. Once in the SSH Ramdisk, select Connect to SSH
 1. Run the following commands:
@@ -28,8 +32,6 @@ sync
 sync
 exit
 ```
-- Note: Replace `mount_apfs` with `mount_hfs` on iOS 10.0-10.2.1
-- WARNING: There is a chance for your device to bootloop after doing this procedure. Proceed at your own risk
 4. Select Reboot Device
 5. Once device reboots, jailbreak with MeridianFix instead
 
