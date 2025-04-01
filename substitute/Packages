@@ -103,15 +103,15 @@ Depiction: https://repo.midnight.team/info/tweak.php?name=team.midnight.libsubst
 Name: Meridian Substitute
 
 Package: team.midnight.meridian-bootstrap
-Version: 1.0-5
+Version: 1.0-6
 Architecture: iphoneos-arm
 Essential: Yes
 Maintainer: PsychoTea
 Filename: ./team.midnight.meridian-bootstrap_iphoneos-arm.deb
-Size: 200308
-MD5sum: b53f29a2bd06830d30a382515a4c756e
-SHA1: b1add6e6e5c1d4c99238c9282391aeeaa26aeef4
-SHA256: eab66f4dc87a240fa5835af6f933d0379099e157b23c02dd442e5571012ba9dc
+Size: 282746
+MD5sum: 8b77225975d2322c48f5d650346c4e4b
+SHA1: ecfc4524f802ae205bfe39de350bd7263382079d
+SHA256: ddbdae5b5b74056d684d34b4b41ce7b9543c9b936869c147d39b0e65f9019189
 Section: System
 Description: boot. for your strap. 'yo.
 Author: PsychoTea
