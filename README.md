@@ -1,19 +1,23 @@
 # MeridianFix
 Meridian is an iOS 10.x Jailbreak for all 64-bit devices.
 
-MeridianFix is a build of Meridian's `substrate` branch with an updated bootstrap.
+MeridianFix is a compilation of builds of Meridian with an updated bootstrap.
 
-- Uses Cydia Substrate instead of Substitute for tweak injection and compatibility
+- Uses Cydia Substrate instead of Substitute for tweak injection and compatibility (web version and substrate build only)
 - Installs Zebra v1.1.36 instead of Cydia on initial installation
+- Fixes bootstrap issues with vanilla Meridian (mostly)
 
 App version (ipa): https://github.com/LukeZGD/MeridianFix/releases
 
 Web version (TNS): https://lukezgd.github.io/MeridianFix
 
 ## Notes
-- The web app might not work for iOS versions below 10.3.x. It is recommended to use the app instead for iOS 10.0-10.2.1
-- Because MeridianFix still uses v0rtex exploit, jailbreaking is going to take a lot of tries. This is because the success rate of v0rtex is really bad.
-- It is not recommended to use MeridianFix if your device is not an iPhone 7 or 7 Plus. Use [tns-sockport](https://github.com/LukeZGD/tns-sockport) or [sockH3lix](https://github.com/SongXiaoXi/sockH3lix) instead.
+- For iOS 10.3.x, either the web version or app (substrate build) can be used.
+- For iOS 10.0-10.2.1, use the app (substitute build).
+    - The web version will not work for iOS versions below 10.3.x. 
+    - The substrate build does not work properly below 10.3.x, so substitute build is provided for these versions.
+- If your device is not an A10 device (**iPhone 7** or **7 Plus**), it is recommended to **not** use MeridianFix.
+    - Use [tns-sockport](https://github.com/LukeZGD/tns-sockport) or [sockH3lix](https://github.com/SongXiaoXi/sockH3lix) instead.
 
 ## For previously jailbroken devices
 If your device was previously jailbroken with Meridian (or other jailbreak tools) and would like to switch to MeridianFix, you may try to do the following steps:
@@ -21,7 +25,7 @@ If your device was previously jailbroken with Meridian (or other jailbreak tools
 - Note: Replace `mount_apfs` with `mount_hfs` on iOS 10.0-10.2.1
 - WARNING: There is a chance for your device to bootloop after doing this procedure. Proceed at your own risk
 - A safer version of this is to remove the folders `/Applications/Cydia.app` and `/meridian` while jailbroken, using Filza, SSH, or other jailbroken methods.
-- Even better is to just dump blobs using [Legacy iOS Kit](https://github.com/LukeZGD/Legacy-iOS-Kit) and restore using [turdus merula](https://sep.lol) instead.
+- Even better to just dump blobs using [Legacy iOS Kit](https://github.com/LukeZGD/Legacy-iOS-Kit) and restore using [turdus merula](https://sep.lol) instead.
 
 1. Run [Legacy iOS Kit](https://github.com/LukeZGD/Legacy-iOS-Kit), go to Other Utilities -> SSH Ramdisk
 1. Follow instructions. Once in the SSH Ramdisk, select Connect to SSH
