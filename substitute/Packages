@@ -1,0 +1,136 @@
+Package: com.saurik.substrate.safemode
+Version: 420.0.0-4
+Architecture: iphoneos-arm
+Maintainer: Ben Sparkes (PsychoTea)
+Filename: ./team.midnight.safemode_1.0_iphoneos-arm.deb
+Size: 12486
+MD5sum: 6116329086505d00b22dcd4cb224e5f7
+SHA1: 40d87b1b8b2f39b0696825e091af4dfeb99e6324
+SHA256: 1c4ca77a2c9ae2e0b22c7fd0703e513bdc68d7563f9884630c40e44805b9bcc2
+Section: Tweaks
+Description: A safe safety safemode extension (safe).
+Author: Ben Sparkes (PsychoTea)
+Depiction: https://repo.midnight.team/info/tweak.php?name=com.saurik.substrate.safemode
+Name: Meridian Safe Mode
+
+Package: cydia-lproj
+Version: 1.1.12
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 712
+Depends: cydia
+Conflicts: org.thebigboss.russiancydia
+Replaces: cydia, org.thebigboss.russiancydia
+Provides: org.thebigboss.russiancydia
+Filename: ./cydia-lproj_1.1.12_iphoneos-arm.deb
+Size: 66876
+MD5sum: 50df4fbd8f163f553a5ba6e4e8fcad15
+SHA1: e3cf092b6e54261f59c7bcbf483d60479a9f86e4
+SHA256: be77311b214122e5ff7dabd001c96b8cd8a4e479362f3163a557d8dd9b520f31
+Section: Packaging
+Priority: required
+Description: languages and translations for Cydia
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia-lproj/
+Name: Cydia Translations
+
+Package: mobilesubstrate
+Version: 420.0.0-5
+Architecture: iphoneos-arm
+Maintainer: Foxlet <foxlet@furcode.co>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode (>=420), team.midnight.libsubstitute, team.midnight.tweakloader, team.midnight.libjailbreak, team.midnight.cydiamodifier, cy+cpu.arm64
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./mobilesubstrate_420.0.0_iphoneos-arm.deb
+Size: 4732
+MD5sum: 016f21955448ba1e950998b5adf77b4f
+SHA1: 9a920ac1ff798b7d82d86debfe30baaff41849ac
+SHA256: 01aeeb6950eb3a584bdfaa7b5fef1c8c718aad9175f16a481dbb345e6d3498b5
+Section: System
+Priority: optional
+Description: Satisfies the Substrate requirement when using Meridian Substitute.
+Author: Foxlet <foxlet@furcode.co>
+Depiction: https://repo.midnight.team/info/tweak.php?name=mobilesubstrate
+Name: Substrate Compatibility Shim
+
+Package: team.midnight.cydiamodifier
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: PsychoTea
+Filename: ./team.midnight.cydiamodifier_1.0_iphoneos-arm.deb
+Size: 3164
+MD5sum: 3f47d22a235a201af6474ecd4ad3ece9
+SHA1: 7a1b953a32b5b045aa9623e5a4d64bf66feb2f92
+SHA256: 624a98fd70b1568821164f1bdd00110f61f055b2786ae506784a9d15d5e9601a
+Section: Tweaks
+Description: Fixes minor bugs with Cydia under Meridian.
+Author: PsychoTea
+Depiction: https://repo.midnight.team/info/tweak.php?name=team.midnight.cydiamodifier
+Name: CydiaModifier
+
+Package: team.midnight.libjailbreak
+Version: 1.0-0
+Architecture: iphoneos-arm
+Maintainer: Foxlet <foxlet@furcode.co>
+Filename: ./team.midnight.libjailbreak_1.0_iphoneos-arm.deb
+Size: 4132
+MD5sum: de6c04b4d39284c6d3b96b48863b6c91
+SHA1: ecf13c069e3557839564d1ed409b13270cb8fc65
+SHA256: 378d9bfb9eba623a98b06130917e2dc74b95d094a76e45cfd673d1b081c4b343
+Section: System
+Description: Communications library for jailbreakd.
+Author: PsychoTea
+Depiction: https://repo.midnight.team/info/tweak.php?name=team.midnight.libjailbreak
+Name: libjailbreak
+
+Package: team.midnight.libsubstitute
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: PsychoTea
+Conflicts: com.anemonetheming.anemone (<= 2.1.8-1)
+Filename: ./team.midnight.libsubstitute_1.0-1_iphoneos-arm.deb
+Size: 45048
+MD5sum: 64202a4c5bb90e36c6a9264675b56e91
+SHA1: b4e5da4a2c30548c55dbdca88f7774651bbafcc1
+SHA256: 2f7f8d7861e784a6bc1f9124d5fc411a19dcd9cf6171371d7aa282896bbaa792
+Section: System
+Description: A replacement code injector for iOS binaries.
+Author: comex <comexk+da@gmail.com>
+Depiction: https://repo.midnight.team/info/tweak.php?name=team.midnight.libsubstitute
+Name: Meridian Substitute
+
+Package: team.midnight.meridian-bootstrap
+Version: 1.0-5
+Architecture: iphoneos-arm
+Essential: Yes
+Maintainer: PsychoTea
+Filename: ./team.midnight.meridian-bootstrap_iphoneos-arm.deb
+Size: 200308
+MD5sum: b53f29a2bd06830d30a382515a4c756e
+SHA1: b1add6e6e5c1d4c99238c9282391aeeaa26aeef4
+SHA256: eab66f4dc87a240fa5835af6f933d0379099e157b23c02dd442e5571012ba9dc
+Section: System
+Description: boot. for your strap. 'yo.
+Author: PsychoTea
+Name: Meridian Bootstrap
+Required: Yes
+
+Package: team.midnight.tweakloader
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: Foxlet <foxlet@furcode.co>
+Depends: team.midnight.libsubstitute (>= 1.0-1)
+Filename: ./team.midnight.tweakloader_1.0-2_iphoneos-arm.deb
+Size: 10520
+MD5sum: 6ba81da3728766119161820db97b84b3
+SHA1: 3afc5027efbeb4baa167bb0d28e9ed7703480f47
+SHA256: aaa00ea84074e5034b6b450f1d975b041d3d6b8234b8c405b49788fc148e05e1
+Section: System
+Description: It loads your tweaks.
+Author: PsychoTea
+Depiction: https://repo.midnight.team/info/tweak.php?name=team.midnight.tweakloader
+Name: TweakLoader
+
