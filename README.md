@@ -10,9 +10,10 @@ App version (ipa): https://github.com/LukeZGD/MeridianFix/releases
 
 Web version (TNS): https://lukezgd.github.io/MeridianFix
 
-Note: The web app might not work for iOS versions below 10.3.x. It is recommended to use the app instead for iOS 10.0-10.2.1
-
-Note 2: Because MeridianFix still uses v0rtex exploit, jailbreaking is going to take a lot of tries. This is because the success rate of v0rtex is really bad.
+## Notes
+- The web app might not work for iOS versions below 10.3.x. It is recommended to use the app instead for iOS 10.0-10.2.1
+- Because MeridianFix still uses v0rtex exploit, jailbreaking is going to take a lot of tries. This is because the success rate of v0rtex is really bad.
+- It is not recommended to use MeridianFix if your device is not an iPhone 7 or 7 Plus. Use [tns-sockport](https://github.com/LukeZGD/tns-sockport) or [sockH3lix](https://github.com/SongXiaoXi/sockH3lix) instead.
 
 ## For previously jailbroken devices
 If your device was previously jailbroken with Meridian (or other jailbreak tools) and would like to switch to MeridianFix, you may try to do the following steps:
@@ -20,6 +21,7 @@ If your device was previously jailbroken with Meridian (or other jailbreak tools
 - Note: Replace `mount_apfs` with `mount_hfs` on iOS 10.0-10.2.1
 - WARNING: There is a chance for your device to bootloop after doing this procedure. Proceed at your own risk
 - A safer version of this is to remove the folders `/Applications/Cydia.app` and `/meridian` while jailbroken, using Filza, SSH, or other jailbroken methods.
+- Even better is to just dump blobs using [Legacy iOS Kit](https://github.com/LukeZGD/Legacy-iOS-Kit) and restore using [turdus merula](https://sep.lol) instead.
 
 1. Run [Legacy iOS Kit](https://github.com/LukeZGD/Legacy-iOS-Kit), go to Other Utilities -> SSH Ramdisk
 1. Follow instructions. Once in the SSH Ramdisk, select Connect to SSH
