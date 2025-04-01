@@ -25,7 +25,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *versionLabel;
 @end
 
-NSString *Version = @"MeridianFix: v0.10.0";
+NSString *Version = @"MeridianFix: v0.10.0-substitute";
 NSOperatingSystemVersion osVersion;
 
 id thisClass;
@@ -189,7 +189,7 @@ bool jailbreak_has_run = false;
 }
 
 - (IBAction)websiteButtonPressed:(UIButton *)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://meridian.sparkes.zone"]
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/LukeZGD/MeridianFix"]
                                        options:@{}
                              completionHandler:nil];
 }
