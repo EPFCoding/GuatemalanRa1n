@@ -12,9 +12,8 @@ App version (ipa): https://github.com/LukeZGD/MeridianFix/releases
 Web version (TNS): https://lukezgd.github.io/MeridianFix
 
 ## Notes
-- For iOS 10.3.x, either the web version or app (substrate build) can be used.
-- For iOS 10.0-10.2.1, use the app (substitute build).
-    - The web version will not work for iOS versions below 10.3.x. 
+- For iOS 10.3.x, either the **substrate** build of the web or app version.
+- For iOS 10.0-10.2.1, use the **substitute** build of the web or app version.
     - The substrate build does not work properly below 10.3.x, so substitute build is provided for these versions.
 - If your device is not an A10(X) device (**iPhone 7** or **7 Plus** or A10X iPad Pros), it is recommended to **not** use MeridianFix.
     - Use [tns-sockport](https://github.com/LukeZGD/tns-sockport) or [sockH3lix](https://github.com/SongXiaoXi/sockH3lix) instead.
