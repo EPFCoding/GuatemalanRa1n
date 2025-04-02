@@ -3,7 +3,7 @@ Meridian is an iOS 10.x Jailbreak for all 64-bit devices.
 
 MeridianFix is a compilation of builds of Meridian with an updated bootstrap.
 
-- Uses Cydia Substrate instead of Substitute for tweak injection and compatibility (web version and substrate build only)
+- Uses Cydia Substrate instead of Substitute for tweak injection and compatibility (substrate build only)
 - Installs Zebra v1.1.36 instead of Cydia on initial installation
 - Fixes bootstrap issues with vanilla Meridian (mostly)
 
