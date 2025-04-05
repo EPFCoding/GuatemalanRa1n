@@ -18,6 +18,13 @@ Web version (TNS): https://lukezgd.github.io/MeridianFix
 - If your device is not an A10(X) device (iPhone 7, 7 Plus, or A10X iPad Pros), it is recommended to **not** use MeridianFix.
     - Use [TNS Sockport](https://lukezgd.github.io/tns-sockport) instead.
 
+## Known Issues
+- Tweak preferences not showing up in Settings (PreferenceLoader not working properly, substitute build only)
+    - Workaround: Use TweakSettings from https://creaturecoding.com/repo
+- Tweaks like FlipControlCenter and other tweaks not working
+    - Compatibility varies between substitute and substrate builds, with substrate having general better compatibility
+    - No fix/workaround at this time
+
 ## For previously jailbroken devices
 If your device was previously jailbroken with Meridian (or other jailbreak tools) and would like to switch to MeridianFix, you may try to do the following steps:
 
