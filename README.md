@@ -19,10 +19,8 @@ Web version (TNS): https://lukezgd.github.io/MeridianFix
     - Use [TNS Sockport](https://lukezgd.github.io/tns-sockport) instead.
 
 ## Known Issues
-- Tweak preferences not showing up in Settings (PreferenceLoader not working properly, substitute build only)
-    - Workaround: Use TweakSettings from https://creaturecoding.com/repo
-- Tweaks like FlipControlCenter and other tweaks not working
-    - Compatibility varies between substitute and substrate builds, with substrate having general better compatibility
+- Tweaks like FlipControlCenter and potentially other tweaks not working
+    - Compatibility may vary between substitute and substrate builds, substrate should have better compatibility
     - No fix/workaround at this time
 
 ## For previously jailbroken devices
